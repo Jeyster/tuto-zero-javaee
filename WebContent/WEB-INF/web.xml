@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+<servlet>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>fr.mathieu.Test</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/toto</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Attribut</servlet-name>
+    <servlet-class>fr.mathieu.Attribut</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Attribut</servlet-name>
+    <url-pattern>/attribut</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Coyote</servlet-name>
+    <servlet-class>fr.mathieu.Coyote</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Coyote</servlet-name>
+    <url-pattern>/coyote</url-pattern>
+</servlet-mapping>
+
+</web-app>
